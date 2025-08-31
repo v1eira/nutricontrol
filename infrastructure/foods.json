@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Salmão", "potassium": 470, "phosphorus": 200, "protein": 20, "portion": 100 },
+  { "id": 2, "name": "Banana", "potassium": 358, "phosphorus": 22, "protein": 1.1, "portion": 100 },
+  { "id": 3, "name": "Batata", "potassium": 429, "phosphorus": 57, "protein": 2, "portion": 100 }
+]

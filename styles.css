@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-background: #F8F9FA;
+    --color-surface: #FFFFFF;
+    --color-primary: #007BFF;
+    --color-primary-hover: #0056b3;
+    --color-text-primary: #212529;
+    --color-text-secondary: #6C757D;
+    --color-text-on-primary: #FFFFFF;
+    --color-border: #DEE2E6;
+  }
+
+  .dark {
+    --color-background: #1A1A1A;
+    --color-surface: #2C2C2C;
+    --color-primary: #007BFF;
+    --color-primary-hover: #3399FF;
+    --color-text-primary: #FFFFFF;
+    --color-text-secondary: #B0B0B0;
+    --color-text-on-primary: #FFFFFF;
+    --color-border: #444444;
+  }
+}
+
+@layer components {
+  .input-style {
+    @apply w-full p-2 rounded bg-surface border border-border text-text-primary focus:outline-none focus:ring-2 focus:ring-primary;
+  }
+}
